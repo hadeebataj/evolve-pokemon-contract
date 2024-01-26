@@ -22,9 +22,21 @@ yarn build
 
 to compile your contracts. This will also detect the [Contracts Extensions Docs](https://portal.thirdweb.com/thirdweb-deploy/contract-extensions) detected on your contract.
 
+## Installing Foundry
+
+```bash
+curl -L https://foundry.paradigm.xyz | bash
+source /Users/hadeebataj/.zshenv
+foundryup
+```
+
 ## Deploying Contracts
 
 When you're ready to deploy your contracts, just run one of the following command to deploy you're contracts:
+
+```bash
+npx thirdweb deploy
+```
 
 ```bash
 npm run deploy
